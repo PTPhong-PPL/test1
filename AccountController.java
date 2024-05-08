@@ -5,11 +5,7 @@
  */
 package Controllers.Account;
 
-import java.io.IOException;
-import javax.servlet.ServletException;
-import javax.servlet.annotation.WebServlet;
-import javax.servlet.http.HttpServlet;
-import javax.servlet.http.HttpServletRequest;
+import java.io.asdasd
 import javax.servlet.http.HttpServletResponse;
 
 /**
@@ -21,31 +17,14 @@ public class AccountController extends HttpServlet {
 
     /**
      * Processes requests for both HTTP <code>GET</code> and <code>POST</code>
-     * methods.
-     *
-     * @param request servlet request
-     * @param response servlet response
-     * @throws ServletException if a servlet-specific error occurs
-     * @throws IOException if an I/O error occurs
-     */
-    private final String AddAccountController = "AddAccountController";
-    private final String DeleteAccountController = "DeleteAccountController";
-    private final String UpdateAccountController = "UpdateAccountController";
-    private final String ViewAccountController = "ViewAccountController";
-
+     * methods.dsfdsjhkfdskfjshdjkfdf
+sdfdsjfdskf
+sfdsfdsf
     protected void processRequest(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
         response.setContentType("text/html;charset=UTF-8");
         request.setCharacterEncoding("UTF-8");
-
-        String url = null, action = request.getParameter("action");
-        try {
-            if (action.equalsIgnoreCase("Add")) {
-                url = AddAccountController;
-            } else if (action.equalsIgnoreCase("Delete")) {
-                url = DeleteAccountController;
-            } else if (action.equalsIgnoreCase("View")) {
-                url = ViewAccountController;
+asdadasdsadasdasdontroller;
             } else if (action.equalsIgnoreCase("Update")) {
                 url = UpdateAccountController;
             }
